@@ -24,23 +24,17 @@ function NavBar() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 flex items-center justify-between px-6 py-3 md:px-12 bg-orange-50 backdrop-blur-lg border-b border-orange-100 shadow-md">
-        <div className="text-xl text-orange-500 font-['Krona_One'] tracking-[0.25em] uppercase">
-          La Cometa
+      <nav className="sticky top-4 z-50 flex md:flex-col lg:flex-row md:gap-4 lg:gap-0 items-center justify-between px-6 py-3 md:px-12">
+        {/* SEZIONE LOGO - flex-1 spinge tutto il resto verso il centro */}
+        <div className="flex-1">
+          <div className="text-2xl text-orange-800 font-['Krona_One'] tracking-[0.25em] uppercase whitespace-nowrap">
+            La Cometa
+          </div>
         </div>
 
-        <button
-          className="inline-flex flex-col justify-center gap-1 w-8 h-8 rounded-full border border-orange-100 bg-white cursor-pointer p-1 md:hidden"
-          aria-label="Toggle navigation"
-          onClick={() => setIsOpen((prev) => !prev)}
-        >
-          <span className="w-full h-0.5 rounded-full bg-orange-800" />
-          <span className="w-full h-0.5 rounded-full bg-orange-800" />
-          <span className="w-full h-0.5 rounded-full bg-orange-800" />
-        </button>
-
+        {/* SEZIONE MENU - Rimane al centro perché i due lati hanno flex-1 */}
         <ul
-          className={`absolute left-6 right-6 top-14 flex-col gap-1 p-3 bg-white rounded-xl shadow-xl md:static md:flex md:flex-row md:gap-2 md:p-0 md:bg-transparent md:shadow-none ${
+          className={`absolute left-6 right-6 top-14 flex-col gap-1 p-3 bg-white rounded-xl shadow-xl md:static md:flex md:flex-row md:gap-2 md:p-0 ${
             isOpen ? "flex" : "hidden"
           }`}
         >
@@ -49,10 +43,10 @@ function NavBar() {
               <NavLink
                 to={link.to}
                 className={({ isActive }) =>
-                  `block px-3 py-2 rounded-full text-sm no-underline transition-transform duration-150 ease-out hover:-translate-y-0.5 ${
+                  `block px-4 py-2 rounded-full text-lg no-underline transition-transform duration-150 ease-out hover:-translate-y-0.5 ${
                     isActive
-                      ? "bg-orange-500 text-slate-50"
-                      : "text-slate-900 hover:bg-orange-500 hover:text-slate-50"
+                      ? "text-orange-800 font-bold text-slate-50"
+                      : "text-slate-900 hover:text-orange-800"
                   }`
                 }
                 onClick={() => setIsOpen(false)}
@@ -62,6 +56,19 @@ function NavBar() {
             </li>
           ))}
         </ul>
+
+        {/* SEZIONE DESTRA - Bilancia il logo. Su desktop è un flex-1 vuoto, su mobile c'è l'hamburger */}
+        <div className="flex-1 flex justify-end">
+          <button
+            className="inline-flex flex-col justify-center gap-1 w-8 h-8 rounded-full border border-orange-100 bg-white cursor-pointer p-1 md:hidden"
+            aria-label="Toggle navigation"
+            onClick={() => setIsOpen((prev) => !prev)}
+          >
+            <span className="w-full h-0.5 rounded-full bg-orange-800" />
+            <span className="w-full h-0.5 rounded-full bg-orange-800" />
+            <span className="w-full h-0.5 rounded-full bg-orange-800" />
+          </button>
+        </div>
       </nav>
     </>
   );
