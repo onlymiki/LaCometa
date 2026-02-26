@@ -45,7 +45,7 @@ function NavBar() {
                 className={({ isActive }) =>
                   `block px-4 py-2 rounded-full text-lg no-underline transition-transform duration-150 ease-out hover:-translate-y-0.5 ${
                     isActive
-                      ? "text-orange-800 font-bold text-slate-50"
+                      ? "text-orange-800 font-bold"
                       : "text-slate-900 hover:text-orange-800"
                   }`
                 }
