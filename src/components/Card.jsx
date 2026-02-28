@@ -11,7 +11,7 @@ function Card({ img, title, description, buttonText }) {
         />
 
         <div className="flex flex-col flex-grow items-center text-center">
-          <h4 className="text-2xl font-bold mb-2 text-orange-900 font-['Krona_One']">
+          <h4 className="text-3xl font-bold mb-2 text-orange-900 font-['Sour_Gummy']">
             {title}
           </h4>
           <p className="text-gray-900 mb-6">{description}</p>
