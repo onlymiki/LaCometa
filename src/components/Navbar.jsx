@@ -3,17 +3,44 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [visible, setVisible] = useState(true); // Decide se la nav è visibile
+  const [lastScrollY, setLastScrollY] = useState(0); // Memorizza l'ultimo punto di scroll
 
   useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      // 1. Gestione Sfondo (come prima)
+      setScrolled(currentScrollY > 50);
+
+      // 2. Gestione Visibilità (Mostra se sali, nascondi se scendi)
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // Sto scendendo e ho superato i 100px -> Nascondi
+        setVisible(false);
+        setIsOpen(false); // Chiude il menu mobile se scendi
+      } else {
+        // Sto salendo -> Mostra
+        setVisible(true);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
     const handleResize = () => {
       if (window.innerWidth >= 768) {
         setIsOpen(false);
       }
     };
 
+    window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [lastScrollY]); // Aggiungiamo lastScrollY come dipendenza
 
   const links = [
     { to: "/", label: "Home" },
@@ -24,17 +51,25 @@ function NavBar() {
 
   return (
     <>
-      <nav className="sticky top-4 z-50 flex md:flex-col lg:flex-row md:gap-4 lg:gap-0 items-center justify-between px-6 py-3 md:px-12">
-        {/* SEZIONE LOGO - flex-1 spinge tutto il resto verso il centro */}
+      <nav
+        className={`fixed left-0 right-0 z-50 flex md:flex-col lg:flex-row md:gap-4 lg:gap-0 items-center justify-between px-6 py-3 md:px-12 transition-all duration-300 ${
+          scrolled
+            ? "bg-white/90 shadow-md rounded-2xl mx-4 top-4"
+            : "bg-transparent top-4"
+        } ${
+          visible ? "translate-y-0 opacity-100" : "-translate-y-24 opacity-0"
+        }`}
+      >
+        {/* SEZIONE LOGO */}
         <div className="flex-1">
           <div className="text-2xl text-orange-800 font-['Krona_One'] tracking-[0.25em] uppercase whitespace-nowrap">
             La Cometa
           </div>
         </div>
 
-        {/* SEZIONE MENU - Rimane al centro perché i due lati hanno flex-1 */}
+        {/* SEZIONE MENU */}
         <ul
-          className={`absolute left-6 right-6 top-14 flex-col gap-1 p-3 bg-white rounded-xl shadow-xl md:static md:flex md:flex-row md:gap-2 md:p-0 ${
+          className={`absolute left-6 right-6 top-14 flex-col gap-1 p-3 bg-white rounded-xl shadow-xl md:static md:flex md:flex-row md:gap-2 md:p-0 md:bg-transparent md:shadow-none ${
             isOpen ? "flex" : "hidden"
           }`}
         >
@@ -57,7 +92,7 @@ function NavBar() {
           ))}
         </ul>
 
-        {/* SEZIONE DESTRA - Bilancia il logo. Su desktop è un flex-1 vuoto, su mobile c'è l'hamburger */}
+        {/* SEZIONE DESTRA */}
         <div className="flex-1 flex justify-end">
           <button
             className="inline-flex flex-col justify-center gap-1 w-8 h-8 rounded-full border border-orange-100 bg-white cursor-pointer p-1 md:hidden"
