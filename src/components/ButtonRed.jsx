@@ -6,7 +6,7 @@ function ButtonRed({ text, link }) {
   return (
     <button
       onClick={() => navigate(link)}
-      className="w-48 bg-red-900 text-red-50 px-6 py-3 rounded-full hover:font-bold hover:bg-red-50 hover:text-red-900 transition duration-300 font-['Krona_One']"
+      className="w-48 bg-orange-600 text-white px-6 py-3 rounded-full hover:font-bold hover:bg-orange-700 hover:text-white transition duration-300 font-['Krona_One']"
     >
       {text}
     </button>

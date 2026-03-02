@@ -1,9 +1,9 @@
-import ButtonRed from "./ButtonRed";
+import ButtonWhite from "./ButtonWhite";
 
 function Card({ img, title, description, buttonText }) {
   return (
     <>
-      <div className="flex flex-col items-center bg-white/60 backdrop-blur-lg rounded-3xl shadow-xl p-6 h-full border border-white/20 overflow-hidden">
+      <div className="flex flex-col items-center bg-[#fcfcfc]/60 backdrop-blur-lg rounded-3xl shadow-xl p-6 h-full border border-gray-200/40 overflow-hidden">
         <img
           src={img}
           alt="immagine"
@@ -11,14 +11,14 @@ function Card({ img, title, description, buttonText }) {
         />
 
         <div className="flex flex-col flex-grow items-center text-center">
-          <h4 className="text-3xl font-bold mb-2 text-orange-900 font-['Sour_Gummy']">
+          <h4 className="text-3xl font-bold mb-2 text-orange-600 font-['Sour_Gummy']">
             {title}
           </h4>
-          <p className="text-gray-900 mb-6">{description}</p>
+          <p className="text-gray-700 mb-6">{description}</p>
         </div>
 
         <div className="mt-auto w-full flex justify-center">
-          <ButtonRed text={buttonText} link="/menu" />
+          <ButtonWhite text={buttonText} link="/menu" />
         </div>
       </div>
     </>

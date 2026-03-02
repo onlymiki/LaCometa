@@ -1,0 +1,191 @@
+[
+  {
+    "category": "Pizze Blasco",
+    "title": "Albachiara",
+    "ingredients": "Mozzarella, mortadella, grana, bufala, granella di pistacchio",
+    "price1": "€9,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Speciali",
+    "title": "Americana",
+    "ingredients": "Pomodoro, mozzarella, wurstel, patate fritte",
+    "price1": "€7,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Anna",
+    "ingredients": "Pomodoro, mozzarella, gamberetti, zucchine",
+    "price1": "€8,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Con Formaggi",
+    "title": "Biancaneve",
+    "ingredients": "Mozzarella, stracchino",
+    "price1": "€7,00",
+    "price2": "€4,00"
+  },
+  {
+    "category": "Speciali",
+    "title": "Bismark",
+    "ingredients": "Pomodoro, mozzarella, prosciutto cotto, uova",
+    "price1": "€7,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Pizze Blasco",
+    "title": "Bollicine",
+    "ingredients": "Pomodoro, bufala, noci, basilico",
+    "price1": "€8,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Con Formaggi",
+    "title": "Bufalina",
+    "ingredients": "Pomodoro, mozzarella di bufala",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Calzoni",
+    "title": "Calzone Farcito",
+    "ingredients": "Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive",
+    "price1": "€8,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Calzoni",
+    "title": "Calzone Liscio",
+    "ingredients": "Pomodoro, mozzarella, prosciutto cotto",
+    "price1": "€7,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Caprese",
+    "ingredients": "Pomodoro, mozzarella, rucola, bufala, pomodorini freschi",
+    "price1": "€8,00",
+    "price2": "€4,00"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Capricciosa",
+    "ingredients": "Pomodoro, mozzarella, funghi, carciofi, olive, prosciutto cotto",
+    "price1": "€8,50",
+    "price2": "€5,00"
+  },
+  {
+    "category": "Pizze Blasco",
+    "title": "Ciao",
+    "ingredients": "Mozzarella, zucchine, pomodorini, crescenza, aceto balsamico",
+    "price1": "€9,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Cipolle",
+    "ingredients": "Pomodoro, mozzarella, cipolle",
+    "price1": "€6,50",
+    "price2": "€4,00"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Crudo",
+    "ingredients": "Pomodoro, mozzarella, prosciutto crudo",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Frutti di Mare",
+    "ingredients": "Pomodoro, mozzarella, frutti di mare",
+    "price1": "€9,00",
+    "price2": "€5,00"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Funghi",
+    "ingredients": "Pomodoro, mozzarella, funghi champignon",
+    "price1": "€6,50",
+    "price2": "€4,00"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Margherita",
+    "ingredients": "Pomodoro, mozzarella",
+    "price1": "€6,00",
+    "price2": "€3,00"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Marinara",
+    "ingredients": "Pomodoro, origano, aglio",
+    "price1": "€5,00",
+    "price2": "€3,00"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Napoli",
+    "ingredients": "Pomodoro, mozzarella, acciughe, origano",
+    "price1": "€7,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Ortolana",
+    "ingredients": "Pomodoro, mozzarella, melanzane, zucchine, peperoni",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Prosciutto",
+    "ingredients": "Pomodoro, mozzarella, prosciutto cotto",
+    "price1": "€7,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Quattro Formaggi",
+    "ingredients": "Pomodoro, mozzarella, fontina, zola, taleggio",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Quattro Stagioni",
+    "ingredients": "Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Salsiccia",
+    "ingredients": "Pomodoro, mozzarella, salsiccia",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Speck",
+    "ingredients": "Pomodoro, mozzarella, speck",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Tonno & Cipolla",
+    "ingredients": "Pomodoro, mozzarella, tonno, cipolla",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Wurstel",
+    "ingredients": "Pomodoro, mozzarella, wurstel",
+    "price1": "€6,50",
+    "price2": "€4,00"
+  }
+]
