@@ -21,7 +21,7 @@ function Home() {
           </h3>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <ButtonWhite text="Sfoglia il Menu" link="/menu" />
+            <ButtonWhite text="Contattaci" link="/contacts" />
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@ function Home() {
             Le nostre specialità
           </span>
           <h2 className="text-4xl md:text-5xl text-gray-800 font-['Krona_One'] text-center">
-            Le più amate dai clienti
+            Pizzeria La Cometa
           </h2>
           <div className="h-1.5 w-24 bg-orange-500 rounded-full mt-6"></div>
         </div>
@@ -43,21 +43,21 @@ function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <Card
             img={pizza}
-            title="Pizze al Farro"
-            description="La più antica varietà di frumento conosciuta. Un impasto profumato, saporito e incredibilmente digeribile per chi cerca il massimo del benessere."
+            title="Il nostro menu"
+            description="Dalla classica Margherita alla gourmet con impasto ai cereali, ogni pizza è un capolavoro di gusto e qualità. Scopri il nostro menu completo!"
             buttonText="Scopri di più"
           />
 
           <Card
             img={pizza2}
-            title="Pizze Giganti"
-            description="Dimensioni extra per una fame extra! Ideali da condividere con gli amici o per chi non si accontenta mai della solita pizza."
-            buttonText="Vedi formati"
+            title="La storia de La Cometa"
+            description="Nata nel 2010, La Cometa è cresciuta grazie alla passione per la pizza e alla dedizione alla qualità."
+            buttonText="La nostra storia"
           />
 
           <Card
             img={pizza3}
-            title="Pizze agli 8 Cereali"
+            title="Come raggiungerci?"
             description="Grano, mais, avena, sesamo, segale, orzo e miglio. Una consistenza corposa e croccante per un'esplosione di gusto unica nel suo genere."
             buttonText="Prova il gusto"
           />

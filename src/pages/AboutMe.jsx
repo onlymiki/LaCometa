@@ -139,10 +139,10 @@ function AboutMe() {
                 <span className="font-bold text-orange-500 italic">
                   mi sono imbarcato in un'avventura
                 </span>{" "}
-                che dura dal maggio del 2010. <br></br>Adesso sono quasi 15 anni
-                che esiste la Pizzeria La Cometa e, ragazzi, vi assicuro che
-                fare come lavoro quello che più ti piace è tutta un'altra cosa:
-                non ha prezzo!{" "}
+                che dura dal maggio del 2010. <br></br>Adesso sono più di 15
+                anni che esiste la Pizzeria La Cometa e, ragazzi, vi assicuro
+                che fare come lavoro quello che più ti piace è tutta un'altra
+                cosa: non ha prezzo!{" "}
                 <span className="font-bold italic text-orange-500">
                   Se vuoi saperne di più vieni a trovarci a Gaggiano, in Via
                   Gramsci 43
