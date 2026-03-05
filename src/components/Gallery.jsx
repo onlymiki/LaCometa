@@ -51,7 +51,7 @@ function Gallery() {
         {/* Intestazione */}
         <div className="text-center mb-16">
           <h2 className="sm:text-5xl text-4xl font-['Krona_One'] text-gray-800 mb-4">
-            La nostra <span className="text-orange-600">galleria</span>
+            La nostra <span className="text-orange-600 italic">galleria</span>
           </h2>
           <div className="h-1.5 w-20 bg-orange-500 mx-auto rounded-full mb-6"></div>
           <p className="text-gray-500 text-lg font-['Sour_Gummy'] italic">
