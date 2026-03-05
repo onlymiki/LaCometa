@@ -2,8 +2,10 @@ import { useState } from "react";
 import GridItems from "../components/GridItems";
 import Gallery from "../components/Gallery";
 import pizzeData from "../data/pizze.json";
+import bibiteData from "../data/bibite.json";
 
 function Menu() {
+  // INSERIRE VOLANTINO!
   const [categoriaAttiva, setCategoriaAttiva] = useState("Tutte");
 
   const categorie = ["Tutte", ...new Set(pizzeData.map((p) => p.category))];
@@ -62,14 +64,62 @@ function Menu() {
                 </button>
               ))}
             </div>
+            <div className="mt-4 text-center">
+              <p className="text-gray-500 italic text-sm font-['Sour_Gummy']">
+                Pizze a cereali, al farro e integrali 1€ in più rispetto al
+                prezzo di listino
+              </p>
+              <p className="text-gray-500 italic text-sm font-['Sour_Gummy'] pb-2">
+                Pizze baby 0,50€ in meno rispetto al prezzo di listino
+              </p>
+              <a
+                href="src\volantino-La-Cometa.pdf"
+                target="_blank"
+                className="text-orange-600 hover:text-orange-700 underline mt-4"
+              >
+                Scarica il volantino
+              </a>
+            </div>
           </div>
 
           {/* GRIGLIA PIZZE */}
-          <div className="py-12 bg-white">
+          <div className="pb-12 bg-white">
             <GridItems items={pizzeFiltrate} />
           </div>
 
           {/* FOOTER INTERNO SCHEDA: Colori Neutri */}
+          <div className="bg-gray-50 py-10 text-center border-t border-gray-100">
+            <p className="text-gray-400 text-xs tracking-[0.3em] uppercase font-bold">
+              Pizzeria La Cometa • Passione per la qualità
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* SEZIONE BIBITE */}
+      <div
+        id="drinks-section"
+        className="relative px-4 sm:px-6 py-20 bg-gradient-to-b from-orange-50 to-white"
+      >
+        <div className="max-w-[1400px] mx-auto bg-white rounded-[2.5rem] shadow-2xl overflow-hidden border border-gray-100">
+          {/* INTESTAZIONE */}
+          <div className="bg-[#fcfcfc] py-12 px-6 border-b border-gray-100">
+            <div className="text-center">
+              <h2 className="sm:text-5xl text-3xl font-['Krona_One'] text-gray-800 mb-4">
+                Le nostre <span className="text-orange-600 italic">bibite</span>
+              </h2>
+              <p className="text-gray-500 text-lg font-['Sour_Gummy'] italic">
+                Accompagna la tua pizza con una bevanda rinfrescante
+              </p>
+            </div>
+          </div>
+
+          {/* GRIGLIA BIBITE */}
+          <div className="py-12 bg-white">
+            <GridItems items={bibiteData} />
+          </div>
+
+          {/* FOOTER INTERNO SCHEDA */}
           <div className="bg-gray-50 py-10 text-center border-t border-gray-100">
             <p className="text-gray-400 text-xs tracking-[0.3em] uppercase font-bold">
               Pizzeria La Cometa • Passione per la qualità

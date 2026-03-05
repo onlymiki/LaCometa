@@ -8,12 +8,12 @@ function Contacts() {
         <div className="max-w-[1400px] mx-auto px-6 sm:px-20 pt-20 flex flex-col items-start relative z-10">
           <h1 className="sm:text-7xl text-5xl font-['Krona_One'] text-gray-800 leading-[1.2] lg:w-2/3 tracking-tight">
             Come<br></br>
-            <span className="text-orange-600 italic">Trovarci?</span>
+            <span className="text-orange-600 italic">trovarci?</span>
           </h1>
 
           <h3 className="text-gray-500 sm:text-3xl text-xl pt-8 pb-12 font-['Sour_Gummy'] italic max-w-xl">
-            Siamo a Gaggiano in via Gramsci, 43. Siamo aperti dal martedì alla
-            domenica!
+            Ci trovi a Gaggiano, in Via Gramsci 43. Ti aspettiamo dal martedì
+            alla domenica!
           </h3>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import ButtonWhite from "./ButtonWhite";
 
-function Card({ img, title, description, buttonText }) {
+function Card({ img, title, description, buttonText, buttonLink }) {
   return (
     <>
       <div className="flex flex-col items-center bg-gradient-to-b from-white via-orange-50 to-orange-100 backdrop-blur-lg rounded-3xl shadow-xl p-6 h-full border border-gray-200/40 overflow-hidden">
@@ -20,7 +20,7 @@ function Card({ img, title, description, buttonText }) {
         </div>
 
         <div className="mt-auto w-full flex justify-center">
-          <ButtonWhite text={buttonText} link="/menu" />
+          <ButtonWhite text={buttonText} link={buttonLink} />
         </div>
       </div>
     </>

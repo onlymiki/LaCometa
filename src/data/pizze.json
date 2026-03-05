@@ -21,6 +21,13 @@
     "price2": "€4,50"
   },
   {
+    "category": "Speciali",
+    "title": "Aspargina",
+    "ingredients": "Pomodoro, mozzarella, asparagi, uovo, pancetta affumicata",
+    "price1": "€8,50",
+    "price2": "€5,00"
+  },
+  {
     "category": "Con Formaggi",
     "title": "Biancaneve",
     "ingredients": "Mozzarella, stracchino",
@@ -28,11 +35,25 @@
     "price2": "€4,00"
   },
   {
+    "category": "Con Formaggi",
+    "title": "Bufalina",
+    "ingredients": "Mozzarella di bufala",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
     "category": "Speciali",
     "title": "Bismark",
     "ingredients": "Pomodoro, mozzarella, prosciutto cotto, uova",
     "price1": "€7,00",
     "price2": "N.D."
+  },
+  {
+    "category": "Speciali",
+    "title": "Braccio di ferro",
+    "ingredients": "Pomodoro, mozzarella, salsiccia, spinaci",
+    "price1": "€8,00",
+    "price2": "€4,50"
   },
   {
     "category": "Pizze Blasco",
@@ -49,17 +70,24 @@
     "price2": "€4,50"
   },
   {
-    "category": "Calzoni",
+    "category": "Tradizionali",
     "title": "Calzone Farcito",
     "ingredients": "Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive",
     "price1": "€8,00",
     "price2": "N.D."
   },
   {
-    "category": "Calzoni",
+    "category": "Tradizionali",
     "title": "Calzone Liscio",
     "ingredients": "Pomodoro, mozzarella, prosciutto cotto",
     "price1": "€7,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Con Formaggi",
+    "title": "Calzone quattro formaggi",
+    "ingredients": "Mozzarella, taleggio, zola, edamer",
+    "price1": "€8,00",
     "price2": "N.D."
   },
   {
@@ -91,11 +119,32 @@
     "price2": "€4,00"
   },
   {
+    "category": "Pizze Blasco",
+    "title": "Colpa d'Alfredo",
+    "ingredients": "Mozzarella, trevisana, funghi, speck, taleggio",
+    "price1": "€9,50",
+    "price2": "N.D."
+  },
+  {
+    "category": "Speciali",
+    "title": "Cometa",
+    "ingredients": "Pomodoro, mozzarella, crema zafferano, porcini, grana",
+    "price1": "€9,00",
+    "price2": "€5,00"
+  },
+  {
     "category": "Tradizionali",
     "title": "Crudo",
     "ingredients": "Pomodoro, mozzarella, prosciutto crudo",
     "price1": "€7,50",
     "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Focaccia Ligure",
+    "ingredients": "Mozzarella, stracchino, olio evo, prosciutto cotto, origano",
+    "price1": "€9,00",
+    "price2": "N.D."
   },
   {
     "category": "Tradizionali",
@@ -112,10 +161,52 @@
     "price2": "€4,00"
   },
   {
+    "category": "Speciali",
+    "title": "Gabri",
+    "ingredients": "Pomodoro, mozzarella, salame piccante, melanzane, scamorza affumicata",
+    "price1": "€8,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Con Pesce",
+    "title": "Gamberetti e Rucola",
+    "ingredients": "Pomodoro, mozzarella, gamberetti, rucola",
+    "price1": "€9,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Gustosa",
+    "ingredients": "Pomodoro, mozzarella, trevisana, salsiccia, scamorza",
+    "price1": "€8,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Altro",
+    "title": "Hot Dog",
+    "ingredients": "Wurstel, crauti, ketchup, senape, maionese",
+    "price1": "€4,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Speciali",
+    "title": "Luna",
+    "ingredients": "Mozzarella, stracchino, spinaci",
+    "price1": "€7,50",
+    "price2": "N.D."
+  },
+  {
     "category": "Tradizionali",
     "title": "Margherita",
     "ingredients": "Pomodoro, mozzarella",
     "price1": "€6,00",
+    "price2": "€3,00"
+  },
+  {
+    "category": "Giganti",
+    "title": "Margherita",
+    "ingredients": "Pomodoro, mozzarella",
+    "price1": "€22,00",
     "price2": "€3,00"
   },
   {
@@ -124,6 +215,55 @@
     "ingredients": "Pomodoro, origano, aglio",
     "price1": "€5,00",
     "price2": "€3,00"
+  },
+  {
+    "category": "Con Verdure",
+    "title": "Melanzane",
+    "ingredients": "Pomodoro, mozzarella, melanzane",
+    "price1": "€6,50",
+    "price2": "€4,00"
+  },
+  {
+    "category": "Speciali",
+    "title": "Messicana",
+    "ingredients": "Pomodoro, mozzarella, mais, salsiccia, cipolle, peperoni, wurstel",
+    "price1": "€9,00",
+    "price2": "€5,00"
+  },
+  {
+    "category": "Speciali",
+    "title": "Michela",
+    "ingredients": "Pomodoro, mozzarella, mela, zola, noci",
+    "price1": "€8,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Giganti",
+    "title": "Mista",
+    "ingredients": "Minimo 2 tranci per tipo",
+    "price1": "€28,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Giganti",
+    "title": "Mista Speciale",
+    "ingredients": "Minimo 2 tranci per tipo",
+    "price1": "€32,00",
+    "price2": "€5,00"
+  },
+  {
+    "category": "Con Funghi",
+    "title": "Misto Funghi",
+    "ingredients": "Pomodoro, mozzarella, funghi porcini, champignon",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Montanara",
+    "ingredients": "Pomodoro, mozzarella, trevisana, salsiccia, grana",
+    "price1": "€8,50",
+    "price2": "€4,50"
   },
   {
     "category": "Tradizionali",
@@ -140,10 +280,94 @@
     "price2": "€4,50"
   },
   {
+    "category": "Speciali",
+    "title": "Panna & Prosciutto",
+    "ingredients": "Pomodoro, mozzarella, panna, prosciutto",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Altro",
+    "title": "Panzerotto Liscio",
+    "ingredients": "Pomodoro, mozzarella",
+    "price1": "€4,50",
+    "price2": "N.D."
+  },
+  {
+    "category": "Altro",
+    "title": "Panzerotto Prosciutto",
+    "ingredients": "Pomodoro, mozzarella, prosciutto cotto",
+    "price1": "€4,50",
+    "price2": "N.D."
+  },
+  {
+    "category": "Speciali",
+    "title": "Patatosa",
+    "ingredients": "Pomodoro, mozzarella, patatine fritte",
+    "price1": "€6,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Con Verdure",
+    "title": "Peperoni",
+    "ingredients": "Pomodoro, mozzarella, peperoni",
+    "price1": "€6,50",
+    "price2": "€4,00"
+  },
+  {
+    "category": "Speciali",
+    "title": "Pesto, Grana & Olive",
+    "ingredients": "Pomodoro, mozzarella, pesto, grana, olive",
+    "price1": "€9,00",
+    "price2": "€5,00"
+  },
+  {
+    "category": "Speciali",
+    "title": "Porcellona",
+    "ingredients": "Pomodoro, mozzarella, prosciutto cotto, salame piccante, wurstel, salsiccia",
+    "price1": "€9,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Con Funghi",
+    "title": "Porcini",
+    "ingredients": "Pomodoro, mozzarella, funghi porcini",
+    "price1": "€9,00",
+    "price2": "€5,00"
+  },
+  {
+    "category": "Speciali",
+    "title": "Porrina",
+    "ingredients": "Mozzarella, porri, straccchino",
+    "price1": "€7,00",
+    "price2": "€4,50"
+  },
+  {
     "category": "Tradizionali",
     "title": "Prosciutto",
     "ingredients": "Pomodoro, mozzarella, prosciutto cotto",
     "price1": "€7,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Giganti",
+    "title": "Prosciutto",
+    "ingredients": "Pomodoro, mozzarella, prosciutto",
+    "price1": "€24,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Prosciutto & Funghi",
+    "ingredients": "Pomodoro, mozzarella, prosciutto cotto, funghi",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Giganti",
+    "title": "Prosciutto & FUnghi",
+    "ingredients": "Pomodoro, mozzarella, prosciutto, funghi",
+    "price1": "€26,00",
     "price2": "€4,50"
   },
   {
@@ -161,11 +385,95 @@
     "price2": "€4,50"
   },
   {
+    "category": "Con Verdure",
+    "title": "Rucola & Grana",
+    "ingredients": "Pomodoro, mozzarella, rucola, grana",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Rustica",
+    "ingredients": "Pomodoro, mozzarella, pomodorini freschi",
+    "price1": "€6,50",
+    "price2": "€4,00"
+  },
+  {
+    "category": "Speciali",
+    "title": "Salame & Zola",
+    "ingredients": "Pomodoro, mozzarella, salame, zola",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Salame Piccante",
+    "ingredients": "Pomodoro, mozzarella, salame piccante",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Salame, Panna, Zucchine & Pepe",
+    "ingredients": "Pomodoro, mozzarella, salmone, panna, zucchine, pepe",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Pizze Blasco",
+    "title": "Sally",
+    "ingredients": "Pomodoro, mozzarella, bufala, acciughe",
+    "price1": "€9,00",
+    "price2": "N.D."
+  },
+  {
     "category": "Tradizionali",
     "title": "Salsiccia",
     "ingredients": "Pomodoro, mozzarella, salsiccia",
     "price1": "€8,00",
     "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Salsiccia & Cipolla",
+    "ingredients": "Pomodoro, mozzarella, salsiccia, cipolla",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Salsiccia & Friarielli",
+    "ingredients": "Mozzarella, salsiccia, friarielli",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Con Formaggi",
+    "title": "Scamorza",
+    "ingredients": "Pomodoro, mozzarella, scamorza affumicata",
+    "price1": "€7,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Schiacciatina",
+    "ingredients": "Sale, olio evo, origano",
+    "price1": "€4,50",
+    "price2": "N.D."
+  },
+  {
+    "category": "Tradizionali",
+    "title": "Siciliana",
+    "ingredients": "Pomodoro, mozzarella, acciughe, olive, origano",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Simona",
+    "ingredients": "Pomodoro, mozzarella, zucchine, bufala, olive nere",
+    "price1": "€8,50",
+    "price2": "€5,00"
   },
   {
     "category": "Tradizionali",
@@ -175,6 +483,69 @@
     "price2": "€4,50"
   },
   {
+    "category": "Speciali",
+    "title": "Speck & Brie",
+    "ingredients": "Pomodoro, mozzarella, speck, brie",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Salame & Scamorza",
+    "ingredients": "Pomodoro, mozzarella, speck, scamorza",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Speck & Zola",
+    "ingredients": "Pomodoro, mozzarella, speck, zola",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Stefy",
+    "ingredients": "Pomodoro, mozzarella, patè di olive nere",
+    "price1": "€7,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Pizze Blasco",
+    "title": "Susanna",
+    "ingredients": "Pomodoro, mozzarella, crema di radicchio, pesto, speck, rucola, panna",
+    "price1": "€10,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Speciali",
+    "title": "Tino",
+    "ingredients": "Pomodoro, mozzarella, salame piccante, acciughe, peperoni, salsiccia, zola",
+    "price1": "€10,00",
+    "price2": "€5,00"
+  },
+  {
+    "category": "Speciali",
+    "title": "Tirolese",
+    "ingredients": "Mozzarella, patate, rosmarino, salsiccia, speck",
+    "price1": "€9,00",
+    "price2": "€5,00"
+  },
+  {
+    "category": "Pizze Blasco",
+    "title": "Toffee",
+    "ingredients": "Mozzarella, burrata, coppa, basilico, granella di pistacchio",
+    "price1": "€10,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Con Pesce",
+    "title": "Tonno",
+    "ingredients": "Pomodoro, mozzarella, tonno",
+    "price1": "€7,50",
+    "price2": "€4,00"
+  },
+  {
     "category": "Tradizionali",
     "title": "Tonno & Cipolla",
     "ingredients": "Pomodoro, mozzarella, tonno, cipolla",
@@ -182,9 +553,58 @@
     "price2": "€4,50"
   },
   {
+    "category": "Speciali",
+    "title": "Tonno & Zola",
+    "ingredients": "Pomodoro, mozzarella, tonno, zola",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Con Verdure",
+    "title": "Trevisana e scamorza",
+    "ingredients": "Pomodoro, mozzarella, trevisana, scamorza affumicata",
+    "price1": "€7,50",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Speciali",
+    "title": "Tronchetto",
+    "ingredients": "Zola, crudo, rucola, pomodorini, grana",
+    "price1": "€8,00",
+    "price2": "€4,50"
+  },
+  {
+    "category": "Pizze Blasco",
+    "title": "Vita Spericolata",
+    "ingredients": "Pomodoro, mozzarella, salmone, bufala, pepe",
+    "price1": "€10,00",
+    "price2": "N.D."
+  },
+  {
+    "category": "Pizze Blasco",
+    "title": "Vivere",
+    "ingredients": "Pomodoro, mozzarella, salsiccia, peperoni, cipolla",
+    "price1": "€9,00",
+    "price2": "N.D."
+  },
+  {
     "category": "Tradizionali",
     "title": "Wurstel",
     "ingredients": "Pomodoro, mozzarella, wurstel",
+    "price1": "€6,50",
+    "price2": "€4,00"
+  },
+  {
+    "category": "Speciali",
+    "title": "Zola, Salsiccia & Funghi",
+    "ingredients": "Pomodoro, mozzarella, zola, salsiccia, funghi",
+    "price1": "€8,50",
+    "price2": "€5,00"
+  },
+  {
+    "category": "Con Verdure",
+    "title": "Zucchine",
+    "ingredients": "Pomodoro, mozzarella, zucchine",
     "price1": "€6,50",
     "price2": "€4,00"
   }

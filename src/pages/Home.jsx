@@ -21,7 +21,7 @@ function Home() {
           </h3>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <ButtonWhite text="Contattaci" link="/contacts" />
+            <ButtonWhite text="Contattaci" link="/contatti" />
           </div>
         </div>
       </div>
@@ -46,6 +46,7 @@ function Home() {
             title="Il nostro menu"
             description="Dalla classica Margherita alla gourmet con impasto ai cereali, ogni pizza è un capolavoro di gusto e qualità. Scopri il nostro menu completo!"
             buttonText="Scopri di più"
+            buttonLink="/menu"
           />
 
           <Card
@@ -53,6 +54,7 @@ function Home() {
             title="La storia de La Cometa"
             description="Nata nel 2010, La Cometa è cresciuta grazie alla passione per la pizza e alla dedizione alla qualità."
             buttonText="Scopri di più"
+            buttonLink="/aboutme"
           />
 
           <Card
@@ -60,6 +62,7 @@ function Home() {
             title="Come raggiungerci?"
             description="Siamo a Gaggiano, in via Gramsci 43. Vieni a trovarci o ordina la tua pizza preferita con consegna gratuita!"
             buttonText="Scopri di più"
+            buttonLink="/contatti"
           />
         </div>
       </div>

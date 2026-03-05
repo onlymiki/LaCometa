@@ -11,7 +11,7 @@ function NavBar() {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
-      // 1. Gestione Sfondo (come prima)
+      // 1. Gestione Sfondo
       setScrolled(currentScrollY > 50);
 
       // 2. Gestione Visibilità (Mostra se sali, nascondi se scendi)
@@ -40,7 +40,7 @@ function NavBar() {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleResize);
     };
-  }, [lastScrollY]); // Aggiungiamo lastScrollY come dipendenza
+  }, [lastScrollY]); // lastScrollY come dipendenza
 
   const links = [
     { to: "/", label: "Home" },
@@ -62,9 +62,12 @@ function NavBar() {
       >
         {/* SEZIONE LOGO */}
         <div className="flex-1">
-          <div className="text-2xl text-orange-600 font-['Krona_One'] tracking-[0.25em] uppercase whitespace-nowrap">
+          <a
+            href="/"
+            className="text-2xl text-orange-600 font-['Krona_One'] tracking-[0.25em] uppercase whitespace-nowrap"
+          >
             La Cometa
-          </div>
+          </a>
         </div>
 
         {/* SEZIONE MENU */}

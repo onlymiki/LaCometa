@@ -1,0 +1,27 @@
+[
+    {
+        "category": "Bibite",
+        "title": "Acqua",
+        "price1": "€1,00"
+    },
+    {
+        "category": "Bibite",
+        "title": "Birra in bottiglia cl 33",
+        "price1": "€3,50"
+     },
+     {
+        "category": "Bibite",
+        "title": "Birra in bottiglia cl 66",
+        "price1": "€3,50"
+     },
+     {
+        "category": "Bibite",
+        "title": "Birra TENNENT'S cl 33",
+        "price1": "€3,50"
+    },
+    {
+        "category": "Bibite",
+        "title": "Bibite e birre in lattina cl 33",
+        "price1": "€2,00"
+    }
+]
