@@ -1,3 +1,5 @@
+import ButtonWhite from "../components/ButtonWhite";
+
 function Contacts() {
   return (
     <div className="bg-[#fcfcfc] min-h-screen">
@@ -81,16 +83,7 @@ function Contacts() {
             </div>
 
             <div className="mt-8">
-              {" "}
-              {/* Pu"s "nte pr"s "nte nell"  "ltre p"g "ne: "antien
-                  e coerenza visiva */}
-              <a
-                href="/menu"
-                className="inline-block w-52 bg-[#fcfcfc] text-orange-600 px-8 py-4 rounded-full font-['Krona_One'] text-sm t
-                    racking-wide shadow-lg   transition-all duration-300 hover:bg-orange-600 hover:text-white"
-              >
-                Sfoglia il Menu
-              </a>
+              <ButtonWhite text="Sfogli il menu" link="/menu" />
             </div>
           </div>
 

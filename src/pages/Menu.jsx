@@ -1,5 +1,7 @@
 import { useState } from "react";
 import GridItems from "../components/GridItems";
+import Gallery from "../components/Gallery";
+import ButtonWhite from "../components/ButtonWhite";
 import pizzeData from "../data/pizze.json";
 
 function Menu() {
@@ -26,14 +28,26 @@ function Menu() {
             Scegli tra impasto cereali, al farro o classico! Pizze baby 0.50 €
             in meno rispetto al prezzo del listino
           </h3>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <button
+              onClick={() => {
+                document
+                  .getElementById("gallery-section")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+              className="w-52 bg-white text-orange-600 px-8 py-4 rounded-full font-['Krona_One'] text-sm tracking-wide shadow-lg shadow-orange-900/10 transition-all duration-300 hover:bg-orange-600 hover:text-white hover:-translate-y-1 active:scale-95 text-center"
+            >
+              Gallery
+            </button>
+          </div>
         </div>
       </div>
 
       {/* SEZIONE MENU DINAMICA */}
-      <div className="relative px-4 sm:px-6 -mt-10 pb-20">
+      <div id="menu-section" className="relative px-4 sm:px-6 -mt-10 pb-20">
         <div className="max-w-[1400px] mx-auto bg-white rounded-[2.5rem] shadow-2xl overflow-hidden border border-gray-100">
-          {/* BARRA CATEGORIE STICKY: Colori Grigio e Arancione */}
-          <div className="sticky top-0 z-30 bg-white/90 backdrop-blur-md border-b border-gray-100 py-6 px-4">
+          {/* BARRA CATEGORIE: Colori Grigio e Arancione */}
+          <div className="top-0 z-30 bg-white/90 backdrop-blur-md border-b border-gray-100 py-6 px-4">
             <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
               {categorie.map((cat) => (
                 <button
@@ -62,6 +76,25 @@ function Menu() {
               Pizzeria La Cometa • Passione per la qualità
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className="bg-gradient-to-b from-white via-orange-50 to-orange-100">
+        {/* GALLERIA PIZZE */}
+        <div id="gallery-section">
+          <Gallery items={pizzeFiltrate} />
+        </div>
+        <div className="flex w-100 justify-center py-12">
+          <button
+            onClick={() => {
+              document
+                .getElementById("menu-section")
+                .scrollIntoView({ behavior: "smooth" });
+            }}
+            className="w-52 bg-white text-orange-600 px-8 py-4 rounded-full font-['Krona_One'] text-sm tracking-wide shadow-lg shadow-orange-900/10 transition-all duration-300 hover:bg-orange-600 hover:text-white hover:-translate-y-1 active:scale-95 text-center"
+          >
+            Torna al Menù
+          </button>
         </div>
       </div>
     </div>

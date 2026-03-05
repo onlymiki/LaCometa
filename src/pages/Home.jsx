@@ -40,7 +40,7 @@ function Home() {
         </div>
 
         {/* Griglia delle Card */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-between">
           <Card
             img={pizza}
             title="Il nostro menu"
@@ -52,14 +52,14 @@ function Home() {
             img={pizza2}
             title="La storia de La Cometa"
             description="Nata nel 2010, La Cometa è cresciuta grazie alla passione per la pizza e alla dedizione alla qualità."
-            buttonText="La nostra storia"
+            buttonText="Scopri di più"
           />
 
           <Card
             img={pizza3}
             title="Come raggiungerci?"
-            description="Grano, mais, avena, sesamo, segale, orzo e miglio. Una consistenza corposa e croccante per un'esplosione di gusto unica nel suo genere."
-            buttonText="Prova il gusto"
+            description="Siamo a Gaggiano, in via Gramsci 43. Vieni a trovarci o ordina la tua pizza preferita con consegna gratuita!"
+            buttonText="Scopri di più"
           />
         </div>
       </div>

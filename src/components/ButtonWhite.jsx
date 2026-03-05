@@ -9,7 +9,7 @@ function ButtonWhite({ text, link }) {
       className="
         w-52 
         bg-[#fcfcfc]
-        text-orange-600 
+        text-orange-600
         px-8 
         py-4 
         rounded-full 
