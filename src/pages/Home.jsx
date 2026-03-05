@@ -1,5 +1,6 @@
 import ButtonWhite from "../components/ButtonWhite";
 import Card from "../components/Card";
+import BackToTop from "../components/BackToTop";
 import pizza from "./../img/pizza-home.png";
 import pizza2 from "./../img/pizza-home2.png";
 import pizza3 from "./../img/pizza-home3.png";
@@ -66,6 +67,7 @@ function Home() {
           />
         </div>
       </div>
+      <BackToTop />
     </div>
   );
 }

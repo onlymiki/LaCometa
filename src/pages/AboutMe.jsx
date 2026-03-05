@@ -3,7 +3,7 @@ import Pizzeria1 from "./../img/LaCometa.jpg";
 import Pizzeria2 from "./../img/Pizzeria-La-Cometa-Gaggiano.jpg";
 import Pizzaiolo from "./../img/pizzaiolo.jpg";
 import Pizzaiolo2 from "./../img/pizzaiolo2.jpg";
-
+import BackToTop from "../components/BackToTop";
 function AboutMe() {
   return (
     <>
@@ -229,6 +229,7 @@ function AboutMe() {
               </div>
             </div>
           </div>
+          <BackToTop />
         </div>
       </div>
     </>

@@ -1,5 +1,6 @@
 import ButtonWhite from "../components/ButtonWhite";
 import SocialBar from "../components/SocialBar";
+import BackToTop from "../components/BackToTop";
 
 function Contacts() {
   return (
@@ -114,6 +115,7 @@ function Contacts() {
           </div>
         </div>
       </div>
+      <BackToTop />
     </div>
   );
 }

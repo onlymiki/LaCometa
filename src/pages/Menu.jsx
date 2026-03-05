@@ -3,6 +3,7 @@ import GridItems from "../components/GridItems";
 import Gallery from "../components/Gallery";
 import pizzeData from "../data/pizze.json";
 import bibiteData from "../data/bibite.json";
+import BackToTop from "../components/BackToTop";
 
 function Menu() {
   // INSERIRE VOLANTINO!
@@ -146,6 +147,7 @@ function Menu() {
           </button>
         </div>
       </div>
+      <BackToTop />
     </div>
   );
 }
