@@ -1,7 +1,6 @@
 import { useState } from "react";
 import GridItems from "../components/GridItems";
 import Gallery from "../components/Gallery";
-import ButtonWhite from "../components/ButtonWhite";
 import pizzeData from "../data/pizze.json";
 
 function Menu() {

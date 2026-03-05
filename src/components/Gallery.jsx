@@ -1,9 +1,9 @@
-import pizza1 from "./../../public/margherita.png";
-import pizza2 from "./../../public/salame-piccante-bufala.png";
-import pizza3 from "./../../public/gabri.png";
-import pizza4 from "./../../public/gigante-mista.png";
-import pizza5 from "./../../public/colpa-alfredo.png";
-import pizza6 from "./../../public/albachiara.png";
+import pizza1 from "./../img/margherita.png";
+import pizza2 from "./../img/salame-piccante-bufala.png";
+import pizza3 from "./../img/gabri.png";
+import pizza4 from "./../img/gigante-mista.png";
+import pizza5 from "./../img/colpa-alfredo.png";
+import pizza6 from "./../img/albachiara.png";
 
 function Gallery() {
   const galleryItems = [

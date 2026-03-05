@@ -1,8 +1,8 @@
 import ButtonWhite from "../components/ButtonWhite";
 import Card from "../components/Card";
-import pizza from "/pizza-home.png";
-import pizza2 from "/pizza-home2.png";
-import pizza3 from "/pizza-home3.png";
+import pizza from "./../img/pizza-home.png";
+import pizza2 from "./../img/pizza-home2.png";
+import pizza3 from "./../img/pizza-home3.png";
 
 function Home() {
   return (

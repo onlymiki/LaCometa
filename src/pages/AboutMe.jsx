@@ -1,6 +1,8 @@
 import Value from "../components/Value";
-import Pizzeria1 from "/LaCometa.jpg";
-import Pizzeria2 from "/Pizzeria-La-Cometa-Gaggiano.jpg";
+import Pizzeria1 from "./../img/LaCometa.jpg";
+import Pizzeria2 from "./../img/Pizzeria-La-Cometa-Gaggiano.jpg";
+import Pizzaiolo from "./../img/pizzaiolo.jpg";
+import Pizzaiolo2 from "./../img/pizzaiolo2.jpg";
 
 function AboutMe() {
   return (
@@ -80,10 +82,17 @@ function AboutMe() {
               </p>
             </div>
             <div className="flex justify-center">
-              <div className="w-full aspect-square bg-gradient-to-br from-orange-100 to-orange-50 rounded-lg border-4 border-orange-200 flex items-center justify-center">
-                <span className="text-gray-400 text-center px-6">
-                  📸 Spazio per foto del tuo percorso
-                </span>
+              <div className="flex flex-col gap-4 justify-center md:order-2">
+                <img
+                  src={Pizzaiolo}
+                  alt="Pizzaiolo"
+                  className="w-full h-auto rounded-lg border-4 border-orange-200"
+                />
+                {/* <img
+                  src={Pizzaiolo2}
+                  alt="Pizzaiolo"
+                  className="w-full h-auto rounded-lg border-4 border-orange-200"
+                />*/}
               </div>
             </div>
           </div>
