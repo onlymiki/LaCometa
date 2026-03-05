@@ -17,30 +17,31 @@ function Gallery() {
       img: pizza2,
       title: "Salame Piccante e Bufala",
       ingredients: "Pomodoro, mozzarella, salame piccante, bufala",
-      price: "€8,50",
+      price: "€8,00",
     },
     {
       img: pizza3,
       title: "Gabri",
-      ingredients: "Mozzarella, patate al forno, salsiccia, rosmarino",
-      price: "€9,00",
+      ingredients: "Pomodoro, mozzarella, trevisana, salsiccia, scamorza",
+      price: "€8,50",
     },
     {
       img: pizza4,
       title: "Gigante Mista",
       ingredients: "La nostra selezione speciale in formato extra",
-      price: "€15,00",
+      price: "€28,00",
     },
     {
       img: pizza5,
       title: "Colpa di Alfredo",
-      ingredients: "Mozzarella, panna, speck, noci, miele",
+      ingredients: "Mozzarella, trevisana, funghi, speck, taleggio",
       price: "€9,50",
     },
     {
       img: pizza6,
       title: "Albachiara",
-      ingredients: "Mortadella, stracciatella, granella di pistacchio",
+      ingredients:
+        "Mozzarella, mortadella, grana, bufala, pesto di pistacchio e granella",
       price: "€10,00",
     },
   ];
