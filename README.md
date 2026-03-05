@@ -1,6 +1,8 @@
-# Pizzeria La Cometa - Sito Web Ufficiale
+# Pizzeria La Cometa - Refactor Sito Web Ufficiale
 
-Repository ufficiale de **La Cometa**, una web application moderna e reattiva costruita per una pizzeria artigianale. Il sito permette agli utenti di consultare il menù dinamico, filtrare le pizze per categoria e visualizzare una galleria fotografica dei prodotti.
+Repository ufficiale de **La Cometa**, una web application moderna e reattiva costruita per una pizzeria artigianale. Il sito permette agli utenti di consultare il menù dinamico, filtrare le pizze per categoria e visualizzare una galleria fotografica dei prodotti. 
+
+Sito di partenza: http://www.pizzerialacometa.it/pagina_uno.shtml
 
 ## Funzionalità
 
