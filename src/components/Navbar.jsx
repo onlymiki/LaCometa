@@ -45,7 +45,7 @@ function NavBar() {
   const links = [
     { to: "/", label: "Home" },
     { to: "/menu", label: "Menu" },
-    { to: "/aboutme", label: "About Me" },
+    { to: "/aboutUs", label: "About us" },
     { to: "/contatti", label: "Contatti" },
   ];
 

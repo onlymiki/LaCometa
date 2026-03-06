@@ -55,7 +55,7 @@ function Home() {
             title="La storia de La Cometa"
             description="Nata nel 2010, La Cometa è cresciuta grazie alla passione per la pizza e alla dedizione alla qualità."
             buttonText="Scopri di più"
-            buttonLink="/aboutme"
+            buttonLink="/aboutUs"
           />
 
           <Card
