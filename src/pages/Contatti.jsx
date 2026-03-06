@@ -2,7 +2,7 @@ import ButtonWhite from "../components/ButtonWhite";
 import SocialBar from "../components/SocialBar";
 import BackToTop from "../components/BackToTop";
 
-function Contacts() {
+function Contatti() {
   return (
     <div className="bg-[#fcfcfc] min-h-screen">
       <div className="relative bg-gradient-to-br from-white via-orange-50 to-orange-100 pt-16 pb-24 border-b border-gray-100 overflow-hidden">
@@ -120,4 +120,4 @@ function Contacts() {
   );
 }
 
-export default Contacts;
+export default Contatti;

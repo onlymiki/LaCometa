@@ -46,7 +46,7 @@ function NavBar() {
     { to: "/", label: "Home" },
     { to: "/menu", label: "Menu" },
     { to: "/aboutme", label: "About Me" },
-    { to: "/contatti", label: "Contacts" },
+    { to: "/contatti", label: "Contatti" },
   ];
 
   return (
