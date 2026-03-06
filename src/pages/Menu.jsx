@@ -74,7 +74,7 @@ function Menu() {
                 Pizze baby 0,50€ in meno rispetto al prezzo di listino
               </p>
               <a
-                href="src\volantino-La-Cometa.pdf"
+                href="/LaCometa/volantino-La-Cometa.pdf"
                 target="_blank"
                 className="text-orange-600 hover:text-orange-700 underline mt-4"
               >
@@ -90,7 +90,7 @@ function Menu() {
 
           {/* FOOTER INTERNO SCHEDA: Colori Neutri */}
           <div className="bg-gray-50 py-10 text-center border-t border-gray-100">
-            <p className="text-gray-400 text-xs tracking-[0.3em] uppercase font-bold">
+            <p className="text-gray-400 text-xs tracking-[0.3em] uppercase font-bold px-4">
               Pizzeria La Cometa • Passione per la qualità
             </p>
           </div>
@@ -122,7 +122,7 @@ function Menu() {
 
           {/* FOOTER INTERNO SCHEDA */}
           <div className="bg-gray-50 py-10 text-center border-t border-gray-100">
-            <p className="text-gray-400 text-xs tracking-[0.3em] uppercase font-bold">
+            <p className="text-gray-400 text-xs tracking-[0.3em] uppercase font-bold px-4">
               Pizzeria La Cometa • Passione per la qualità
             </p>
           </div>

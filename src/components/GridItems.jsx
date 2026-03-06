@@ -1,28 +1,43 @@
 import Item from "./Item";
 
 function GridItems({ items }) {
+  const isDrinks = items.length > 0 && items[0].category === "Bibite";
+
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-8 max-w-[1400px] mx-auto w-full px-8 lg:px-20 py-12 border border-gray-200">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-8 max-w-[1400px] mx-auto w-full px-2 lg:px-20 py-8 border border-gray-200">
       {items.length > 0 ? (
         <>
           {/* intestazione colonne prezzi */}
-          <div className="flex items-center text-sm font-bold text-gray-600 uppercase col-span-full">
-            <div className="flex w-full justify-end pe-4 gap-4">
-              <span>Intera</span>
-              <span>Trancio</span>
+          {!isDrinks && (
+            <div className="flex items-center text-sm font-bold text-gray-600 uppercase col-span-full">
+              <div className="flex w-full justify-end pe-4 gap-4">
+                <span>Intera</span>
+                <span>Trancio</span>
+              </div>
+              <div className="hidden md:flex w-full justify-end gap-4">
+                <span>Intera</span>
+                <span>Trancio</span>
+              </div>
             </div>
-            <div className="hidden md:flex w-full justify-end gap-4">
-              <span>Intera</span>
-              <span>Trancio</span>
+          )}
+          {isDrinks && (
+            <div className="flex items-center text-sm font-bold text-gray-600 uppercase col-span-full">
+              <div className="flex w-full justify-end pe-4">
+                <span>Prezzo</span>
+              </div>
+              <div className="hidden md:flex w-full justify-end">
+                <span>Prezzo</span>
+              </div>
             </div>
-          </div>
-          {items.map((pizza, index) => (
+          )}
+          {items.map((item, index) => (
             <Item
               key={index}
-              title={pizza.title}
-              ingredients={pizza.ingredients}
-              price1={pizza.price1}
-              price2={pizza.price2}
+              title={item.title}
+              ingredients={item.ingredients}
+              price1={item.price1}
+              price2={item.price2}
+              isDrinks={isDrinks}
             />
           ))}
         </>
